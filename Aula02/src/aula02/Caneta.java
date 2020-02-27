@@ -5,12 +5,12 @@ public class Caneta {
     float ponta;
     int carga;
     boolean tampado;
+    
     void status (){
-        system.out.println("modelo " + this.modelo);
-        system.out.println("Uma caneta " + this.cor);
-        system.out.println("Ponta " + this.ponta);
-        system.out.println("carga" + this.carga);
-        system.out.println("esta tampada" + this.tampada);
+        System.out.println("modelo " + this.modelo);
+        System.out.println("Uma caneta " + this.cor);
+        System.out.println("Ponta " + this.ponta);
+        System.out.println("esta tampada" + this.tampado);
 
     }
     void rabiscar(){
